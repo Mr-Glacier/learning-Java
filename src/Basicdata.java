@@ -1,6 +1,34 @@
 public class Basicdata {
-        public static void main(String[] args) {
-            // byte  
+    static boolean bool;
+    static byte by;
+    static char ch;
+    static double d;
+    static float f;
+    static int i;
+    static long l;
+    static short sh;
+    static String str;
+    public static void main(String[] args) {
+        /*
+         以下为类型默认值
+         */
+        System.out.println("Bool :" + bool);
+        System.out.println("Byte :" + by);
+        System.out.println("Character:" + ch);
+        System.out.println("Double :" + d);
+        System.out.println("Float :" + f);
+        System.out.println("Integer :" + i);
+        System.out.println("Long :" + l);
+        System.out.println("Short :" + sh);
+        System.out.println("String :" + str);
+
+
+
+        /*
+        以下为实例，byte、short、int、long、float、double、char
+         */
+
+        // byte
             System.out.println("基本类型：byte 二进制位数：" + Byte.SIZE);
             System.out.println("包装类：java.lang.Byte");
             System.out.println("最小值：Byte.MIN_VALUE=" + Byte.MIN_VALUE);
